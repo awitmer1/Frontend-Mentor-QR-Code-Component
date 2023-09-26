@@ -5,6 +5,10 @@
     --dark-blue: hsl(218, 44%, 22%);
 }
 
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
 .main-container {
     display: flex;
     flex-direction: column;
