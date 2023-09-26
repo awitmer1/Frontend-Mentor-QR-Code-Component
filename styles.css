@@ -7,17 +7,26 @@
 
 body {
     font-family: 'Outfit', sans-serif;
+    background-color: #d5e1ef;
 }
 
 .main-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: white;
+    border-radius: 1.5rem;
+}
+
+.main-container img {
+    margin-top: 1rem;
+    border-radius: 1.5rem;
 }
 
 .attribution {
     font-size: 11px;
     text-align: center;
+    margin-top: 10rem;
 }
 
 .attribution a {
