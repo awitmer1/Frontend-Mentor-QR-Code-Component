@@ -27,11 +27,12 @@ body {
 
 .main-container img {
     margin-top: 1rem;
-    border-radius: 1.5rem;
+    border-radius: .75rem;
 }
 
 .center {
     text-align: center;
+    padding: .25rem;
 }
 
 .attribution {
@@ -50,4 +51,5 @@ h1 {
 
 p {
     color: var(--greyish-blue);
+    font-size: x-large;
 }
