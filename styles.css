@@ -21,13 +21,15 @@ body {
     border-radius: 1.5rem;
     padding: 0.25rem 1rem 2.25rem 1rem;
     width: min-content;
-    margin-top: 10rem;
+    margin: 10rem auto;
     box-shadow: 0px 10px 20px 0px hsl(220deg 15% 55% / 26%);
 }
 
 .main-container img {
     margin-top: 1rem;
     border-radius: .75rem;
+    max-width: 20rem;
+    max-height: 20rem;
 }
 
 .center {
@@ -47,9 +49,10 @@ body {
 
 h1 {
     color: var(--dark-blue);
+    font-size: x-large;
 }
 
 p {
     color: var(--greyish-blue);
-    font-size: x-large;
+    font-size: large;
 }
